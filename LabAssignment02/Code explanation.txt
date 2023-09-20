@@ -1,0 +1,11 @@
+Task 1(1): Two loops are used to solve this problem, outer loop holds onto a value from the given integers and the inner loop adds it with the other numbers from the given integers and compares the result with the number we're looking for. If it matches, then writes the two numbers in output file. The two loops makes the time complexity O(N^2)
+
+Task 1(2): This task uses only 1 loop to add the numbers of a sorted list, since it uses the built in sort function, the time complexity of this task is O(NlogN). The addition from a sorted list helps us determine if we should move right or left when adding the two numbers and compare with the number we're looking for. If the added number more than desired, we move the rightward number leftward and vice versa. 
+
+Task 2(1): After merging the two lists, we use merge sort to sort the new list, which makes the time complexity O(NlogN).
+
+Task 2(2): We compare each element of each list with each other and then append them into a new list in ascending order, the remaining elements get added.
+
+Task 3: We use merge sort algorithm to construct the function. 
+
+Task 4: We use divide and conquer strategy to compare each and every element and keep the maximum.

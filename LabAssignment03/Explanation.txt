@@ -1,0 +1,7 @@
+Task 1: In task 1, using merge sort algorithm, we complete our inversion count. In merge sort, we usually sort an array in ascending order using divide and conquor method, so every time an unsorted pair is found, we increment our count by one and solve this problem. 
+
+Task 2: We traverse the array using a single while loop, resulting in a time complexity of O(N), and we compare the left side numbers with right side numbers, finding a middle gorund where the right side number is the highest possible number and the left side number is the second highest possible number.
+
+Task 3: We use given quicksort pseudo code to impliment quicksort method and solve the problem.
+
+Task 4: Using the partition function of quicksort algorithm, we partiton the given array using a pivot in which all the smaller than pivot numbers are on the left and bigger than pivot numbers are on the right, and then modifying the quicksort function, we use it to recursively select k-th smallest number and solve the problem.
